@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="home.css">
+	<title>MyChoice</title>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+	
+</head>
+<body>
+
+	
+<li><a href="#">Saiteja</a></li>
+<ul class="a">
+  <li><a href="home.html">Home</a></li>
+  <li><a class="active" href="mychoice.html">Mychoice</a></li>
+  <li><a href="contact.html">Contact</a></li>
+ </ul>
+<table class="mychoice">
+<tr>
+<td>
+	<h3> Billing the Textbooks</h3>
+
+
+<tr>
+	<td> Java Quantity
+	<input type="number" id="Java" style="margin-left: 55px;" min="1" max="10" oninput="calculate()">	
+
+<tr>
+	<td> WebApps Quantity
+	<input type="number" id="Web" style="margin-left: 20px;" min="1" max="10" oninput="calculate()">	
+
+
+<tr>
+	<td> Database Quantity
+	<input type="number" id="Database"  style="margin-left: 23px;" min="1" max="10" oninput="calculate()">	
+
+
+	
+<tr>
+	<td>
+		<b > Total Price </b>
+		<input type="number" id="price"  style="margin-left: 67px;" min="1" max="10" readonly>
+	</td>
+</tr>
+<tr>
+<td>
+<a href="mychoice.html">
+<input type="reset" name="reset" value="reset"></a>
+<input type="submit" onclick="buy()"  value="Buy" style="margin-left: 100px;"> 
+</td>
+</tr>
+<tr>
+	<td>
+		<h2 id="final"> </h2>
+	</td>
+</tr>
+</table>
+<a href="https://en.wikipedia.org/wiki/Java_(programming_language)">
+<img class="java" src="http://i64.tinypic.com/6iuvd2.jpg" alt="Image unable to visible"></a>
+<h2 class="java">
+	$20
+</h2>
+<a href="https://en.wikipedia.org/wiki/Database_design">
+<img class="Data" src="http://i64.tinypic.com/2i748s4.png" alt="Image unable to visible"></a>
+<h2 class="Data">
+	$150
+</h2>
+<a href="https://en.wikipedia.org/wiki/Head_First_(book_series)">
+<img class="Web" src="http://i68.tinypic.com/2uh7t6w.png" alt="Image unable to visible"></a>
+<h2 class="Web">
+	$30
+</h2>
+<footer class="mark"><b>Copyright &copy; 2016 Saiteja Guduri</b></footer>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script  src="A02.js"> </script> 
+</body>
+</html>
